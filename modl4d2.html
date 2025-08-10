@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danh sách Link Tải Tool</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: url('https://wallpapercave.com/wp/wp3085432.jpg') no-repeat center center/cover;
+        margin: 0;
+        padding: 0;
+        color: #f5f5f5;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.75);
+        z-index: -1;
+    }
+
+    /* Header tổng */
+    header {
+        background: rgba(17, 17, 17, 0.85);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    /* Logo bên trái */
+    header .logo {
+        flex: 0 0 auto;
+    }
+
+    header .logo img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #fff;
+    }
+
+    /* Nội dung bên trong, căn giữa và giới hạn 1200px */
+    header .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        flex: 1;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    header strong {
+        color: #ff4d4d;
+    }
+
+    /* Main content */
+    main {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 0 15px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: rgba(42, 42, 42, 0.9);
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        padding: 20px;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+    }
+
+    .icon {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    p {
+        font-size: 14px;
+        color: #ccc;
+        margin-bottom: 15px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 18px;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn-tool { background-color: #007bff; }
+    .btn-tool:hover { background-color: #0056b3; }
+
+    .btn-drive { background-color: #fbbc05; color: #222; }
+    .btn-drive:hover { background-color: #e0a800; }
+
+    .btn-steam { background-color: #171a21; }
+    .btn-steam:hover { background-color: #0d0f12; }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://yt3.ggpht.com/M-6xP9ET_1l4pGAc8bYWtXPG6GWIEUIoFqmwovbM-6YfxV8u2Lq2HZwzUKw4JID3L1xiFHkhow=s176-c-k-c0x00ffffff-no-rj" alt="Logo">
+    </div>
+    <div class="container">
+        📂 Danh sách Link Hỗ Trợ MOD Game <strong>Left 4 Dead 2</strong>
+    </div>
+</header>
+
+<main>
+    <div class="card">
+        <div class="icon">🎮</div>
+        <h3>Steam Workshop</h3>
+        <p>Bộ sưu tập Mod L4D2 – Map, Skin, Vũ khí, Zombie và hơn thế nữa</p>
+        <a href="https://steamcommunity.com/workshop" class="btn btn-steam" target="_blank">Mở Workshop</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">🛠</div>
+        <h3>Web tải MOD</h3>
+        <p>Trang web hỗ trợ tải mod <strong>nhanh chóng, chỉ cần thao tác 1 click trên URL!</strong>                     </p>
+        <a href="https://steamworkshopdownloader.io/" class="btn btn-tool" target="_blank">Mở Ngay</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">☁</div>
+        <h3>File Genshin Impact MOD V3</h3>
+        <p>Chuyển đến Google Drive để tải file mod thủ công.</p>
+        <a href="https://drive.google.com/file/d/1WqGG5HWcIj7p4tZenNuoCtZMELBwrIAJ/view?usp=sharing" class="btn btn-drive" target="_blank">Tải Ngay</a>
+    </div>
+
+    <div class="card">
+        <div class="icon">☁</div>
+        <h3>Game Full Mod Gensin Impact</h3>
+        <p>Chuyển đến Google Drive để tải file GAME đã mod sẵn, chỉ mở lên chơi.</p>
+        <a href="https://drive.google.com/file/d/19fhFK-nUFG_DbEh8gR5fLDzmtuzCsi8p/view?usp=sharing" class="btn btn-drive" target="_blank">Tải Ngay</a>
+    </div>
+</main>
+
+</body>
+</html>
